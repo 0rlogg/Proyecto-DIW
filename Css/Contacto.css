@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#texto{
+    margin-left: 3%;
+    width: 70%;
+}
+
+#formcontacto{
+    display: block;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#Fnombre{
+    margin-left: 40px;
+    float: left;
+
+}
+
+#Fapellidos{
+    margin-right: 25%;
+    float: right;
+}
+
+#Fmail{
+    margin-left: 40px;
+    float: left;
+}
+
+#Ftel{
+    margin-right: 25%;
+    float: right;
+}
+
+#Fmsj{
+    margin-left: 40px;
+    padding-right: 44%;
+}
+
+#Fbutton{
+    margin-left: 40px;    
+}
+
+#formcontacto{
+float: left; 
+width: 70%; height: 70%;
+border: solid 1px black;
+}
+
+#mapa{
+    float: right; 
+    margin-left: 1000px;
+    width: 30%; height: 70%;
+}
+
