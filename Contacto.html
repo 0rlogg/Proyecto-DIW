@@ -4,101 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="Css/homecards.css">
     <title>Home</title>
 </head>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 7%;
+    color: gray;
+  }
+  
+  .topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 
+  }
+  
+  .topnav a:hover {
+    color: white;
+  }
+  
+  .topnav a.active {
+    color: grey;
+  
+  }
+  </style>
+  </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="Home.html">Proyecto DIW</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="Contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-     <!--Formulario contacto-->
-     <br>
-     <br>
-     <br>
-
-     <h1 style="text-align: center;" >¿QUIERES SABER CÓMO PODEMOS AYUDARTE?</h1>
-      <br>
-      <div id="texto">
-        <h5 class="section-title h4" style="text-align: center;">Déjanos tus datos y te llamamos.</h5>
-     </div>
-
-     <div id="formcontacto" class="col-6 my-auto mx-auto">
-       <!-- INICIO FORMULARIO HTML -->
-       <form method="POST" action="/index.php" class="needs-validation" novalidate>
- 
-         <div class="form-row mt-5" >
-           <div class="col-md-4 mb-3" id="Fnombre">
-             <label for="validarNombre">Nombre:<span class="red">*</span></label>
-             <input type="text" size="15" class="form-control" id="validarNombre" name="validarNombre" required>
-           </div>
-           <div class="col-md-4 mb-3" id="Fapellidos">
-             <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
-             <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
-           </div>
-         </div>
-         <div class="form-row">
-           <div class="col-md-4 mb-3"  id="Fmail">
-             <label for="validarEmail">Email:<span class="red">*</span></label>
-             <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
-           </div>
-         </div>
-           <div class="col-md-4 mb-3" id="Ftel">
-             <label for="validarTelefono">Teléfono:</label>
-             <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
-           </div>
- 
-         </div>
-         <div class="form-row" id="Fasunto">
-           <div class="form-group" id="Fmsj">
-             <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
-             <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="2" min="25" required></textarea>
-           </div>
-         </div>
- 
-         <br>
-         <div class="form-group mb-10" id="Fbutton">
-           <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
-           <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
-         </div>
-       </form>
-     <br>
-     <br>
-     <br>
-     <div id="mapa" class="col-4 my-auto mx-auto">    
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.5082870297592!2d-0.9253784845661999!3d41.64475877924136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b22f6b9f321%3A0xd6fc91a106797562!2sCPIFP%20Los%20Enlaces!5e0!3m2!1ses!2ses!4v1645642535468!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-     </div>
-   </div>
-
-
-    <!--Inicio footer-->
-    <footer class="bg-dark text-center text-white fixed-bottom">
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
+  <div class="topnav">
+    <div>
+    <a href=""><h2>Proyecto diw</h2></a>
+    </div>
+    <a class="active" href="#home" style="margin-top: 20px;">Blog</a>
+  </div>
+  
+  <div style="padding-left:16px">
+  </div>
   </body>
 </html>
 
