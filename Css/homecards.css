@@ -15,8 +15,8 @@
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color: #c6d8ff;
+    border-color: #c6d8ff;
 }
 
 section {
@@ -25,7 +25,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #006494;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -114,12 +114,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #71A9F7 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #71A9F7 !important;
 }
 
 .frontside .card .card-body img {
@@ -127,3 +127,4 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
