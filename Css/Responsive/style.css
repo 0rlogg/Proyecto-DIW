@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e9e5dc;
+    background-color: white;
   }
   
   .topnav {
@@ -17,21 +17,21 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color:transparent;
+    background-color: transparent;
 
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: transparent;
     color: black;
-    background-color:transparent;
+
 
   }
   
   .topnav a.active {
-    background-color: #333;
+    background-color: transparent;
     color: white;
-    background-color:transparent;
+
 
   }
 
@@ -44,14 +44,20 @@ body {
       position: fixed;
       z-index: 5;
       top: auto;
-      background-color:transparent;
+      background-color: transparent;
 
   }
   
   p{
-      text-align: center;
-      margin-left: 50px;
-      margin-right: 50px;
+      text-align: justify;
+
+  }
+  
+  #text{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400px;
+    font-style: normal;
   }
 
 /** Footer **/
@@ -67,3 +73,27 @@ footer p{
     color:#fff;
 }
 
+.hover  img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+  #posts{
+  display:none;
+  }
+
+  #textos{
+    width: 100%;
+  }
+
+  #autor{
+    width: 50%;
+  }
+  }
