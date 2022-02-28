@@ -47,6 +47,9 @@ body {
       background-color: transparent;
 
   }
+
+
+
   
   p{
       text-align: justify;
@@ -85,15 +88,13 @@ footer p{
 }
 
 @media screen and (max-width: 800px) {
+  
   #posts{
   display:none;
   }
 
   #textos{
     width: 100%;
-  }
-
-  #autor{
-    width: 50%;
+    display: inline;
   }
   }
