@@ -62,6 +62,7 @@ p {
 
 /** Footer **/
 footer {
+  overflow: hidden;
   width: 100%;
   height: 60px;
   margin-top: 100px;
@@ -69,6 +70,7 @@ footer {
 }
 
 footer p {
+  overflow: hidden;
   text-align: center;
   line-height: 60px;
   color: #fff;
@@ -86,8 +88,8 @@ footer p {
   filter: grayscale(0);
 }
 
-@media screen and (max-width: 800px) {
 
+@media (max-width: 576px) { 
   #posts {
     display: none;
   }
@@ -96,4 +98,23 @@ footer p {
     width: 100%;
     display: inline;
   }
+}
+
+@media (max-width: 768px) { 
+  #posts {
+    display: none;
+  }
+
+  #textos {
+    width: 100%;
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) { 
+  
+}
+
+@media (min-width: 1200px) { 
+
 }

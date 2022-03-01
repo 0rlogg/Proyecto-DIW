@@ -36,6 +36,7 @@
   <br>
   <br>
   <br>
+  
   <div>
     <div class="container" style="float: left;  width: 60%  ;">
       <div class="row fo">
@@ -43,7 +44,6 @@
           <h1 style="text-align: center;">Contacta con nosotros</h1>
           <hr class="divisor">
           <p>Déjanos tus datos y te llamamos.</p>
-          <p class="bg-danger alert-jrc" id="mensajeError"></p>
           <form id="jrcForm">
             <div class="form-group">
               <label for="nombre">Nombre</label>
@@ -65,31 +65,25 @@
             </div>
             <div class="form-group">
               <label for="mensaje">Mensaje</label>
-              <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+              <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
           </form>
         </div>
       </div>
     </div>
-    <div style="width: 30%; height: 50%; float: left;  text-align: center; margin-left: 5%;">
-      <h1>Encuentranos</h1>
+    <div style="width: 30%; height: 50%; float: right;  text-align: center; " id="mapa">
+      <h1 id="h1m">Encuentranos</h1>
       <hr class="divisor">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.5082870297606!2d-0.925378484132952!3d41.64475877924133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b22f6b9f321%3A0xd6fc91a106797562!2sCPIFP%20Los%20Enlaces!5e0!3m2!1ses!2ses!4v1645817163737!5m2!1ses!2ses"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <br>
-      <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur est volutpat, placerat libero sed,
-        porttitor dui. Aenean lacinia dolor mauris, vel ullamcorper massa pellentesque et. Fusce dapibus efficitur
-        lacus, id pulvinar massa ullamcorper quis. Curabitur lobortis lacus lacus, ut fermentum sapien sollicitudin vel.
-        Praesent feugiat viverra eros vel aliquet.</p>
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" id="ifmapa"></iframe>
     </div>
   </div>
-
+  <br>
   <!--Inicio footer-->
-  <footer class="bg-dark text-center text-white fixed-bottom">
+  <footer class="bg-dark text-center text-white fixed-bottom" id="footer">
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
@@ -98,5 +92,4 @@
     <!-- Copyright -->
   </footer>
 </body>
-
 </html>

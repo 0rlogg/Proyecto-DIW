@@ -5,3 +5,47 @@ body {
 p {
     text-align: center;
 }
+
+h1{
+    text-align: center;
+}
+
+
+@media (max-width: 576px) { 
+    .container{
+        justify-content: center;
+    }
+
+    #mapa{
+        display: none;
+
+    }
+    #enviar{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) { 
+    .container{
+        justify-content: center;
+    }
+
+    #mapa{
+        display: none;
+
+    }
+    #enviar{
+        width: 100%;
+    }
+ }
+
+@media (min-width: 992px) { 
+    
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+
