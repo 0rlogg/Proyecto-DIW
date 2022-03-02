@@ -120,7 +120,7 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #19a7b1 !important;
+    color: #000000 !important;
 }
 
 .frontside .card .card-body img {
