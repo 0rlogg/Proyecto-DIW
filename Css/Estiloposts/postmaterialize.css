@@ -1,4 +1,10 @@
+body{
+  background-color: dimgrey;
+}
 
+h1{
+  color: white;
+}
 
 .col{
   font-family:Lora,'Times New Roman',serif;
@@ -9,14 +15,14 @@
 
 p {
   line-height: 1.5;
-  
+  color: white;
 }
 
 .parallax-container {
   min-height: 550px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: white;
 }
 
 .parallax-container .section {
@@ -27,16 +33,14 @@ footer.page-footer {
   margin: 0;
 }
 
- .parallax img 
- {
+.parallax img {
  	 background-repeat: no-repeat;
  	 background-size: cover;
- }
+}
 
- .parallax-container
- {
+.parallax-container{
  	color: black;
- }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

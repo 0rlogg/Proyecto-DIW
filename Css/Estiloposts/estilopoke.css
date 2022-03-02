@@ -34,7 +34,6 @@ body {
 .contenedor #btn {
   margin: 0 10px;
 
-
 }
 
 .pokemon {
@@ -47,36 +46,6 @@ body {
 
 p {
   margin-top: -60px;
-
-}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: transparent;
-
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: transparent;
-
-}
-
-.topnav a:hover {
-  background-color: transparent;
-  color: black;
-
-}
-
-.topnav a.active {
-  background-color: transparent;
-  color: white;
 
 }
 
@@ -114,3 +83,80 @@ footer p {
   margin-bottom: 20px;
 }
 
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#prev {
+  left: 0px;
+  width: 46px;
+  background: url('../../img/iconos/izq.png') 0 0;
+}
+
+#home {
+  left: 63px;
+  width: 43px;
+
+  background: url('../../img/iconos/home.png') 0 0;
+}
+
+#next {
+  left: 129px;
+  width: 45px;
+  background: url('../../img/iconos/der.png');
+}
+
+#prev a:hover {
+  background: url('../../img/iconos/izqsprite.png');
+}
+
+#home a:hover {
+  background: url('../../img/iconos/homesprtite.png');
+}
+
+#next a:hover {
+  background: url('../../img/iconos/dersprite.png');
+}
+
+@media (max-width: 576px) { 
+  #posts {
+    display: none;
+  }
+
+  #textos {
+    width: 100%;
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) { 
+  #posts {
+    display: none;
+  }
+
+  #textos {
+    width: 100%;
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) { 
+  
+}
+
+@media (min-width: 1200px) { 
+
+}

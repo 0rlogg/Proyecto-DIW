@@ -29,6 +29,56 @@ body {
   background-color: transparent;
   color: white;
 }
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#prev {
+  left: 0px;
+  width: 46px;
+  background: url('../../img/iconos/izq.png') 0 0;
+}
+
+#home {
+  left: 63px;
+  width: 43px;
+
+  background: url('../../img/iconos/home.png') 0 0;
+}
+
+#next {
+  left: 129px;
+  width: 45px;
+  background: url('../../img/iconos/der.png');
+}
+
+
+#prev a:hover {
+  background: url('../../img/iconos/izqspritegris.png');
+}
+
+#home a:hover {
+  background: url('../../img/iconos/homesprtitegris.png');
+}
+
+#next a:hover {
+  background: url('../../img/iconos/derspritegris.png');
+}
+
 h1 {
   text-align: center;
   color: black;

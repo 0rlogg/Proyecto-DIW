@@ -4,36 +4,54 @@ body {
   background-color: white;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: transparent;
-
+#navlist {
+  position: relative;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: transparent;
-
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
 }
 
-.topnav a:hover {
-  background-color: transparent;
-  color: black;
-
-
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
 }
 
-.topnav a.active {
-  background-color: transparent;
-  color: white;
-
-
+#prev {
+  left: 0px;
+  width: 46px;
+  background: url('../../img/iconos/izq.png') 0 0;
 }
+
+#home {
+  left: 63px;
+  width: 43px;
+
+  background: url('../../img/iconos/home.png') 0 0;
+}
+
+#next {
+  left: 129px;
+  width: 45px;
+  background: url('../../img/iconos/der.png');
+}
+
+#prev a:hover {
+  background: url('../../img/iconos/izqspritegris.png');
+}
+
+#home a:hover {
+  background: url('../../img/iconos/homesprtitegris.png');
+}
+
+#next a:hover {
+  background: url('../../img/iconos/derspritegris.png');
+}
+
 
 h1 {
   text-align: center;
@@ -44,14 +62,6 @@ h6{
   color: rgb(16, 168, 214);
 }
 
-.topnav {
-  display: flex;
-  position: fixed;
-  z-index: 5;
-  top: auto;
-  background-color: transparent;
-
-}
 
 p {
   text-align: justify;
