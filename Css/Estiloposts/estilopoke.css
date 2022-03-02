@@ -100,3 +100,17 @@ footer p {
   border-radius: 5px; 
   border: 2px solid #007BFF;
 }
+
+#cuadroimg{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-left: 80px;
+  border: 2px inset #FFC107;
+  border-radius: 15px;
+}
+
+#img{
+  margin-bottom: 20px;
+}
+

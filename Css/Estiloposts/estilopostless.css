@@ -1,15 +1,17 @@
+/** Footer **/
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
 }
-
 .topnav {
   overflow: hidden;
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  top: auto;
   background-color: transparent;
-
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -18,83 +20,55 @@ body {
   text-decoration: none;
   font-size: 17px;
   background-color: transparent;
-
 }
-
 .topnav a:hover {
   background-color: transparent;
   color: black;
-
-
 }
-
 .topnav a.active {
   background-color: transparent;
   color: white;
-
-
 }
-
 h1 {
   text-align: center;
   color: black;
 }
-
-h6{
-  color: rgb(16, 168, 214);
+h6 {
+  color: #10a8d6;
 }
-
-.topnav {
-  display: flex;
-  position: fixed;
-  z-index: 5;
-  top: auto;
-  background-color: transparent;
-
-}
-
 p {
   text-align: justify;
-
 }
-
-#textos{
-  width: 60%; 
+#textos {
+  width: 60%;
   text-align: justify;
 }
-
-#imgcabecera{
-  width: 50%; 
-  justify-content: center; 
+#imgcabecera {
+  width: 50%;
+  justify-content: center;
   margin: 0 auto;
 }
-
-#contenedor{
-  width: 50%; 
-  justify-content: center; 
+#contenedor {
+  width: 50%;
+  justify-content: center;
   margin: 0 auto;
 }
-
-#posts{
-  width: 30%; 
-  float: right; 
+#posts {
+  width: 30%;
+  float: right;
   margin-top: 2%;
 }
-
-#contenedorlateral{
-  position: relative; 
-  display: inline-block; 
+#contenedorlateral {
+  position: relative;
+  display: inline-block;
   text-align: center;
 }
-
-#contenedortexto{
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
+#contenedortexto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/** Footer **/
 footer {
   overflow: hidden;
   width: 100%;
@@ -102,53 +76,37 @@ footer {
   margin-top: 100px;
   background: #000;
 }
-
 footer p {
   overflow: hidden;
   text-align: center;
   line-height: 60px;
   color: #fff;
 }
-
 .hover img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-
 .hover img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-
-
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #posts {
     display: none;
   }
-
   #textos {
     width: 100%;
     display: inline;
   }
 }
-
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   #posts {
     display: none;
   }
-
   #textos {
     width: 100%;
     display: inline;
   }
-}
-
-@media (min-width: 992px) { 
-  
-}
-
-@media (min-width: 1200px) { 
-
 }
